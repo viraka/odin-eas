@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Etch-A-Sketch</h1>
+    </header>   
+
+    <div class="container">
+        <div class="controls">
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="3" class="slider" id="myRange">
+                <p>Grid : <span id="demo"></span></p>
+              </div>
+            <button class="button-55" role="button" id="reset">Reset</button>
+            <button class="button-55" role="button" id="random">Random</button>
+            <button class="button-55" role="button" id="black">Black</button>
+            <button class="button-55" role="button" id="grey">GreyPass</button>
+            <button class="button-55" role="button" id="eraser">Eraser</button>
+        </div>
+        <div class="grid-border">
+            <div class="grid">
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>       
+</body>
+</html>
